@@ -7,7 +7,7 @@ public class Palindromo {
 
     public static int palindromeIndex(String s) {
         String reverso="";
-////
+
         String sub1Par = s.substring(0, (s.length()/2));
         String sub1ImPar = s.substring(0, (s.length()/2+1));
 
